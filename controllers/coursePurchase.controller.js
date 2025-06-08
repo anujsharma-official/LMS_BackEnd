@@ -226,7 +226,7 @@ export const getAllPurchasedCourse = async (_, res) => {
   } catch (error) {
     console.error("Error fetching purchased courses:", error);
     return res.status(500).json({
-      message: "Internal Server Error",
+      message: "Internal Server Error!!",
     });
   }
 };
